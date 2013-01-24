@@ -3,22 +3,31 @@ layout: default
 title: Согрейся!
 ---
 
-<div style="border: 1px solid #000;">
-<script type="text/javascript" src="http://app.ecwid.com/script.js?1806206" charset="utf-8"></script>
-<script type="text/javascript"> xCategories("style="); </script>
-</div>
+<div class="container">
 
-blablabla<br>
+    <div class="search">
+    <script type="text/javascript" src="http://app.ecwid.com/script.js?1806206" charset="utf-8"></script>
+    <script type="text/javascript"> xSearchPanel("style="); </script>
+    </div>
 
-<div style="border: 1px solid #000;">
-<script type="text/javascript" src="http://app.ecwid.com/script.js?1806206" charset="utf-8"></script>
-<script type="text/javascript"> xVCategories("style="); </script>
-</div>
+    <div class="sidebar">
+        <div class="bag">
+        <script type="text/javascript" src="http://app.ecwid.com/script.js?1806206" charset="utf-8"></script>
+        <!-- remove layout parameter if you want to position minicart yourself -->
+        <script type="text/javascript"> xMinicart("style=","layout=attachToCategories"); </script>
+        </div>
+        <div class="categories">
+        <script type="text/javascript" src="http://app.ecwid.com/script.js?1806206" charset="utf-8"></script>
+        <script type="text/javascript"> xVCategories("style="); </script>
+        </div>
+    </div>
 
-blablabla<br>
+    <div class="catalog">
+    <script type="text/javascript" src="http://app.ecwid.com/script.js?1806206" charset="utf-8"></script>
+    <script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(3,3) list(10) table(20)","categoryView=grid","searchView=list","style="); </script>
+    <noscript>Your browser does not support JavaScript. Please proceed to <a href="http://app.ecwid.com/jsp/1806206/catalog">HTML version of Согрейся!</a></noscript>
+    </div>
 
-<div>
-<script type="text/javascript" src="http://app.ecwid.com/script.js?1806206" charset="utf-8"></script>
-<script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(3,3) list(10) table(20)","categoryView=grid","searchView=list","style="); </script>
-<noscript>Your browser does not support JavaScript. Please proceed to <a href="http://app.ecwid.com/jsp/1806206/catalog">HTML version of Согрейся!</a></noscript>
+    <div class="clear"></div>
+
 </div>
