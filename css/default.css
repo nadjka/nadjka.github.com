@@ -68,14 +68,14 @@ body {
     font-family: "trebuchet MS", helvetica, verdana, sans-serif;
 }
 
-.post-title {
+a.post-title {
     color: #9f3b3f;
 }
 
-.post-title:visited {
+a.post-title:visited {
     color: #9f3b3f;
 }
 
-.post-title:hover {
+a.post-title:hover {
     color: #9f3b3f;
 }
