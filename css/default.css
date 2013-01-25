@@ -3,7 +3,8 @@
 }
 
 .title {
-    font: normal 34px "trebuchet MS", helvetica, verdana, sans-serif;
+    font: normal 33px "trebuchet MS", helvetica, verdana, sans-serif;
+    margin-top: 30px;
 }
 
 .container {
