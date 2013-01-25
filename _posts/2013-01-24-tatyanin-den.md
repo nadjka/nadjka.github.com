@@ -1,6 +1,6 @@
 ---
 
-title: Readme Driven Development
+title: Акция "Татьянин день" - не пропустите скидки!
 ---
 
 {{ page.title }}
