@@ -15,7 +15,9 @@ body {
 .container {
     min-width: 800px;
     max-width: 920px;
-    margin: 0 auto;
+    margin: 10 auto;
+    box-shadow: 0 2px 8px -1px #000;
+    padding: 20px;
 }
 
 .sidebar {
