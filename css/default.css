@@ -15,11 +15,12 @@
 
 .search {
     float: left;
-    margin: 20px;
+    margin: 120px 0 0 10px;
 }
 
 .bag {
     float: right;
+    margin-right: 40px;
 }
 
 .clear {
