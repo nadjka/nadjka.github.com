@@ -1,6 +1,13 @@
 ---
 layout: default
-title: Согрейся!
+title: Полезная информация
 ---
 
-Здесь будут новости
+<h2>Новости</h2>
+{% for post in site.info %}
+    <div class="post">
+        <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+        <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+        <div class="post-content">{{ post.content }}</div>
+    </div>
+{% endfor %}
