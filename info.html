@@ -3,8 +3,8 @@ layout: default
 title: Полезная информация
 ---
 
-<h2>Новости</h2>
-{% for post in site.info %}
+<h2>{{ page.title }}</h2>
+{% for post in site.posts %}
     <div class="post">
         <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
         <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
