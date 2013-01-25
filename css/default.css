@@ -1,3 +1,11 @@
+.logo, .title {
+    float: left;
+}
+
+.title {
+    font: normal 34px "trebuchet MS", helvetica, verdana, sans-serif;
+}
+
 .container {
     min-width: 800px;
     max-width: 920px;
