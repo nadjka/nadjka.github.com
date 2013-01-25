@@ -22,6 +22,11 @@
     margin-top: 30px;
 }
 
+.menu span {
+    margin: 10px;
+    font: normal 25px "trebuchet MS", helvetica, verdana, sans-serif;
+}
+
 .search {
     margin-top: 50px;
 }
