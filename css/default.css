@@ -63,7 +63,7 @@ body {
     clear: both;
 }
 
-.post {
+.post, .post h1 {
     color: #413124;
     font-family: "trebuchet MS", helvetica, verdana, sans-serif;
 }
