@@ -2,5 +2,11 @@
 layout: default
 title: Согрейся!
 ---
-
-Здесь будут новости
+<h2>Новости</h2>
+{% for post in site.posts %}
+    <div class="post">
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+        <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+        <div class="post-content">{{ post.content }}</div>
+    </div>
+{% endfor %}
