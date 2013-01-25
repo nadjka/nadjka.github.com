@@ -12,3 +12,16 @@
 .catalog {
     margin-left: 220px;
 }
+
+.search {
+    float: left;
+    margin: 20px;
+}
+
+.bag {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
