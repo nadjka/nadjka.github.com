@@ -24,7 +24,16 @@
 
 .menu a {
     margin: 10px;
-    font: normal 25px "trebuchet MS", helvetica, verdana, sans-serif;
+    font: normal 16px "trebuchet MS", helvetica, verdana, sans-serif;
+    color: #413124;
+}
+
+.menu a:visited {
+    color: #413124;
+}
+
+.menu a:hover {
+    text-decoration: none;
 }
 
 .search {
