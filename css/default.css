@@ -2,6 +2,10 @@ body {
     background-color: #F3F1F1;
 }
 
+a, a:visited, a:hover {
+    color: #9f3b3f;
+}
+
 .logo, .title {
     float: left;
 }
@@ -117,7 +121,6 @@ ul.contacts i {
 }
 
 ul.contacts a, ul.contacts a:visited, ul.contacts a:hover {
-    color: #9f3b3f;
     text-decoration: none;
 }
 
