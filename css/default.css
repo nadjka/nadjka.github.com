@@ -100,3 +100,8 @@ ul.contacts, ul.contacts a {
     margin: 40px 0;
     font: normal 16px "trebuchet MS", helvetica, verdana, sans-serif;
 }
+
+ul.contacts a, ul.contacts a:visited, ul.contacts a:hover {
+    color: #413124;
+    text-decoration: none;
+}
