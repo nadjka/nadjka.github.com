@@ -99,6 +99,7 @@ a.post-title:hover {
 ul.contacts, ul.contacts a {
     margin: 40px 0;
     font: normal 16px "trebuchet MS", helvetica, verdana, sans-serif;
+    list-style: none;
 }
 
 ul.contacts i {
