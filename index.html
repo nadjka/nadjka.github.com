@@ -9,3 +9,23 @@ title: Теплые аксессуары для владельцев смарт�
 <noscript>Your browser does not support JavaScript. Please proceed to <a href="http://app.ecwid.com/jsp/1806206/catalog">HTML version of Согрейся!</a></noscript>
 </div>
 
+<hr>
+
+<div id="homepage-news">
+    {% for post in site.posts %}
+        {% if post.category == "news" %}
+            <div class="post">
+                <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+                <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+                <div class="post-content">{{ post.content }}</div>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+<script type="text/javascript">
+    if (location.href != 'http://sogreysya.com/') {
+        var news = document.getElementById('homepage-news');
+        news.style.display = 'none';
+    }
+</script>
