@@ -3,10 +3,10 @@ layout: post
 title: Полезная информация
 ---
 {% for post in site.posts %}
-    {% unless post.category == "news" %}
+    {% if post.category == "info" %}
     <div class="post">
         <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
         <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
     </div>
-    {% endunless %}
+    {% endif %}
 {% endfor %}
