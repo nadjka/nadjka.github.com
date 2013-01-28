@@ -127,7 +127,10 @@ ul.contacts li {
 ul.contacts i {
     padding: 0 8px;
     margin-right: 5px;
-    background: transparent url('http://sogreysya.nethouse.ru/img/grid_2/pink/4.png') no-repeat scroll left center;
+    background-image: url('http://sogreysya.nethouse.ru/img/grid_2/pink/4.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
 }
 
 ul.contacts a, ul.contacts a:visited, ul.contacts a:hover {
