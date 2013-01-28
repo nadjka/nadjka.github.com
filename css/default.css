@@ -1,5 +1,7 @@
 body {
     background-color: #F3F1F1;
+    font-family: "trebuchet MS", helvetica, verdana, sans-serif;
+    color: #413124;
 }
 
 a, a:visited, a:hover {
@@ -11,8 +13,7 @@ a, a:visited, a:hover {
 }
 
 .title {
-    font: normal 26px "trebuchet MS", helvetica, verdana, sans-serif;
-    color: #413124;
+    font-size: 26px ;
     margin-top: 30px;
 }
 
@@ -20,7 +21,7 @@ a, a:visited, a:hover {
     position: absolute;
     margin-left: 550px;
     margin-top: -20px;
-    font: normal 20px "trebuchet MS", helvetica, verdana, sans-serif;
+    font-size: 20px;
     color: #9f3b3f;
 }
 
@@ -58,7 +59,7 @@ a, a:visited, a:hover {
     border: 1px solid transparent;
     border-radius: 10px;
     box-shadow: 0 2px 8px -1px #000;
-    font: normal 16px "trebuchet MS", helvetica, verdana, sans-serif;
+    font-size: 16px;
     color: #413124;
 }
 
@@ -83,27 +84,10 @@ a, a:visited, a:hover {
     clear: both;
 }
 
-.post {
-    color: #413124;
-    font-family: "trebuchet MS", helvetica, verdana, sans-serif;
-}
-
-a.post-title {
-    color: #9f3b3f;
-}
-
-a.post-title:visited {
-    color: #9f3b3f;
-}
-
-a.post-title:hover {
-    color: #9f3b3f;
-}
-
 ul.contacts {
     margin: 40px 0;
     padding: 0;
-    font: normal 16px "trebuchet MS", helvetica, verdana, sans-serif;
+    font-size: 16px;
     list-style: none;
 }
 
