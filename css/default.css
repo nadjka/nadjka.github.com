@@ -103,9 +103,12 @@ ul.contacts {
     list-style: none;
 }
 
+ul.contacts li {
+    padding: 5px;
+}
+
 ul.contacts i {
-    margin: 5px;
-    padding-left: 15px;
+    padding: 0 5px;
     background-image: transparent url('http://sogreysya.nethouse.ru/img/grid_2/pink/4.png') no-repeat fixed left center;
 }
 
