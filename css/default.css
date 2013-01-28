@@ -101,6 +101,12 @@ ul.contacts, ul.contacts a {
     font: normal 16px "trebuchet MS", helvetica, verdana, sans-serif;
 }
 
+ul.contacts i {
+    margin: 5px;
+    padding-left: 15px;
+    background-image: transparent url('http://sogreysya.nethouse.ru/img/grid_2/pink/4.png') no-repeat fixed left center;
+}
+
 ul.contacts a, ul.contacts a:visited, ul.contacts a:hover {
     color: #9f3b3f;
     text-decoration: none;
