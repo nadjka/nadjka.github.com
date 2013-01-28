@@ -13,11 +13,14 @@ title: Теплые аксессуары для владельцев смарт�
 
 <div id="homepage-news">
     {% for post in site.posts %}
+        {% if post.category == "news" %}
             <div class="post">
                 <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
                 <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
                 <div class="post-content">{{ post.content }}</div>
             </div>
+            {% break %}
+        {% endif %}
     {% endfor %}
 </div>
 
