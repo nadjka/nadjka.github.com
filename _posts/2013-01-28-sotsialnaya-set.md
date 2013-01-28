@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 category: news
 title: Акция "Социальная сеть" - скидки для пользователей Вконтакте и Facebook
 ---
