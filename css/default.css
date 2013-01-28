@@ -96,6 +96,7 @@ a.post-title:hover {
     color: #9f3b3f;
 }
 
-ul.contacts {
-    margin: 20px 0;
+ul.contacts, ul.contacts li a {
+    margin: 40px 0;
+    font: normal 20px "trebuchet MS", helvetica, verdana, sans-serif;
 }
