@@ -109,7 +109,7 @@ ul.contacts li {
 
 ul.contacts i {
     padding: 0 5px;
-    background-image: transparent url('http://sogreysya.nethouse.ru/img/grid_2/pink/4.png') no-repeat fixed left center;
+    background: transparent url('http://sogreysya.nethouse.ru/img/grid_2/pink/4.png') no-repeat fixed left center;
 }
 
 ul.contacts a, ul.contacts a:visited, ul.contacts a:hover {
