@@ -96,6 +96,23 @@ a.post-title:hover {
     color: #9f3b3f;
 }
 
+
+.c-phone {
+    background-position: -17px -1px;
+}
+
+.c-mail {
+    background-position: -85px -1px;
+}
+
+.c-icq {
+    background-position: -102px -1px;
+}
+
+.c-skype {
+    background-position: -119px -1px;
+}
+
 ul.contacts {
     margin: 40px 0;
     padding: 0;
@@ -116,20 +133,4 @@ ul.contacts i {
 ul.contacts a, ul.contacts a:visited, ul.contacts a:hover {
     color: #9f3b3f;
     text-decoration: none;
-}
-
-.c-phone {
-    background-position: -17px -1px;
-}
-
-.c-mail {
-    background-position: -85px -1px;
-}
-
-.c-icq {
-    background-position: -102px -1px;
-}
-
-.c-skype {
-    background-position: -119px -1px;
 }
