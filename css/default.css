@@ -12,6 +12,9 @@ a, a:visited, a:hover {
     float: left;
 }
 
+.logo {
+    margin-left: 15px;
+}
 .logoword {
     margin-left: 240px;
     margin-top: 8px;
