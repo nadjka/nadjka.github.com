@@ -8,8 +8,13 @@ a, a:visited, a:hover {
     color: #9f3b3f;
 }
 
-.logo, .title {
+.logo, .title, .logoword {
     float: left;
+}
+
+.logoword {
+    margin-left: 50px;
+    margin-top: 35px;
 }
 
 .title {
