@@ -109,17 +109,17 @@ ul.contacts a, ul.contacts a:visited, ul.contacts a:hover {
 }
 
 .c-phone {
-    background-position: -17px -1px;
+    background-position: -17px 0px;
 }
 
 .c-mail {
-    background-position: -85px -1px;
+    background-position: -85px 0px;
 }
 
 .c-icq {
-    background-position: -102px -1px;
+    background-position: -102px 0px;
 }
 
 .c-skype {
-    background-position: -119px -1px;
+    background-position: -119px 0px;
 }
