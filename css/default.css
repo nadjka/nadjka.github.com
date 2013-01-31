@@ -48,7 +48,7 @@ a, a:visited, a:hover {
 .sidebar {
     float: left;
     width: 220px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .content {
@@ -85,7 +85,7 @@ a, a:visited, a:hover {
 }
 
 .search {
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 .bag {
