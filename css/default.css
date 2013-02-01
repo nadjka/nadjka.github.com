@@ -5,7 +5,7 @@ body {
 }
 
 a, a:visited, a:hover {
-    color: #9f3b3f;
+    color: #0058bc;
 }
 
 .logo, .title, .logoword {
@@ -31,7 +31,7 @@ a, a:visited, a:hover {
     margin-left: 400px;
     margin-top: -23px;
     font-size: 20px;
-    color: #0058bc;
+    color: #413124;
 }
 
 .container {
